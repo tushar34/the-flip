@@ -1,0 +1,52 @@
+.fdiv {
+    background: #4c3aad;
+    height: 380px;
+
+    .footer {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        color: #eae7f5;
+        padding: 100px;
+
+        .footer_content {
+            width: 30%;
+            text-align: center;
+
+            .info {
+                margin-top: 20px;
+            }
+
+            .info p {
+                color: #eae7f5;
+            }
+
+            .social_icon {
+                box-sizing: border-box;
+                margin-bottom: 20px;
+            }
+
+            .social_icon i {
+                // display: flex;
+                padding: 0px 20px;
+
+            }
+        }
+    }
+
+    .right {
+        text-align: center;
+        color: #eae7f5;
+        margin: 20px 0;
+    }
+
+    .right h4 {
+        font-weight: 200;
+
+    }
+
+    .h_r {
+        border-color: #9d97b1;
+    }
+}

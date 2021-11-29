@@ -5,7 +5,7 @@
         url("http://localhost:3000/Images/13.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 600px;
 
 
     .container {
@@ -21,7 +21,7 @@
             .heading {
                 width: 68%;
                 font-size: 3rem;
-                line-height: initial;
+                line-height: 3.5rem;
                 text-align: center;
             }
         }
@@ -65,7 +65,7 @@
                 background-image: linear-gradient(45deg,
                         rgba(237, 118, 114, 1),
                         rgba(72, 48, 171, 1));
-                padding: 50px 80px;
+                padding: 50px 70px;
                 text-align: right;
                 height: 100%;
 
@@ -108,7 +108,7 @@
         .row-box {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: center;
             margin-top: 100px;
 
             .box {
@@ -117,6 +117,7 @@
                 padding: 35px;
                 border-radius: 20px;
                 background: #f5f9fc;
+                margin: 1rem;
 
                 .icon {
                     padding-top: 15px;
@@ -153,11 +154,14 @@
     .sect_3 {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
 
         .sec3_info {
             box-sizing: border-box;
-            width: 50%;
+            width: 45%;
             margin-top: auto;
+            // margin: 10px;
+
 
         }
 
@@ -169,7 +173,8 @@
         }
 
         .sec3_image {
-            width: 50%;
+            width: 45%;
+            // margin: 10px;
 
             .s3_image {
                 width: 70%;
@@ -204,12 +209,12 @@
     .sect_4 {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
 
         .sec_4_box {
             box-sizing: border-box;
-            margin: 2rem 1rem;
-            width: 30%;
+            margin: 2rem 2rem;
+            width: 25%;
         }
     }
 }

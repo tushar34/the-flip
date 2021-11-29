@@ -1,18 +1,20 @@
 .fdiv {
     background: #4c3aad;
-    height: 380px;
+    height: auto;
+    padding-bottom: 10px;
 
     .footer {
         margin-top: 100px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
         color: #eae7f5;
-        padding: 100px;
+        padding: 90px;
 
         .footer_content {
             width: 30%;
             text-align: center;
+            margin: 10px;
 
             .info {
                 margin-top: 20px;

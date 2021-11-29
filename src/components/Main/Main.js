@@ -30,7 +30,7 @@ export default function Main() {
               </div>
               {/* div-2 */}
               <div className="description">
-                <h5>why not you? it coast $0</h5>
+                <h5>why not you? it costs $0</h5>
                 <h2>
                   Professional Home Flippers are earning $100k after buying your
                   home.

@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="footer_content">
               <h4>location</h4>
               <div className="info">
-                <p>234, silicon height, adajan road, surat, gujrat, india</p>
+                <p>234, silicon height, adajan road, surat, gujarat, india</p>
               </div>
             </div>
 

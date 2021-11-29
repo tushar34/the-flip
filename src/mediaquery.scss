@@ -1,36 +1,215 @@
-@media (max-width: 1399.98px) {}
+@media (max-width: 1400px) {}
 
-@media (max-width: 1199.98px) {}
+@media (max-width: 1200px) {}
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 960px !important;
   }
 
-}
+  .section2 {
+    margin-top: -22% !important;
 
-@media (max-width: 767.98px) {
+    .container {
+      .sect_2 {
+        .imagedescription {
+          .description {
+            padding: 50px 35px;
+          }
 
-  /* .container {
-     max-width: 720px;
-   } */
-  /* .header_ul {
-    display: none ;
+          // .description h2 {
+          //   font-size: 1.5rem !important;
+          // }
+        }
 
-  } */
-  .header {
-    .header_ul {
-      display: none;
-
+        .row-box {
+          .box {
+            width: 40%;
+          }
+        }
+      }
     }
   }
 
-
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 768px) {
+
   .container {
-    max-width: 95%;
+    max-width: 720px !important;
+  }
+
+  .header {
+    .header_ul {
+      display: none !important;
+    }
+  }
+
+  .section1 {
+    .main_section {
+      .heading span {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .section2 {
+    .sect_2 {
+      .imagedescription {
+        .h_image {
+          display: none;
+        }
+
+        .description {
+          // display: flex;
+          // align-items: center;
+          // justify-content: center;
+          // flex-direction: column;
+          // flex-wrap: wrap;
+          width: 100% !important;
+          text-align: center !important;
+        }
+      }
+
+      .row-box {
+        .box {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+
+  .section4 {
+    .sect_4 {
+      .sec_4_box {
+        width: 35% !important;
+      }
+    }
+  }
+
+  .fdiv {
+    .footer {
+      padding: 50px 30px !important;
+
+      .footer_content {
+        width: 100% !important;
+        text-align: center !important;
+        margin-bottom: 20px !important;
+
+        .info {
+          margin-top: 0 !important;
+        }
+
+        .social_icon {
+          text-align: center;
+        }
+      }
+    }
   }
 
 }
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 95% !important;
+  }
+
+  .section1 {
+    .main_section {
+      .heading {
+        width: 100% !important;
+        line-height: 2rem !important;
+        text-align: left !important;
+      }
+
+      .heading span {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .section2 {
+    margin-top: -40% !important;
+
+    .container {
+      .sect_2 {
+        .imagedescription {
+          height: auto !important;
+
+          .h_image {
+            display: none;
+          }
+
+          .description {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100% !important;
+            text-align: center !important;
+            height: auto !important;
+            padding: 1rem;
+          }
+
+          // .description h5 {
+          //   font-size: 1rem !important;
+          // }
+
+          .description h2 {
+            font-size: 1rem !important;
+            line-height: 1.5 !important;
+          }
+        }
+      }
+    }
+  }
+
+  .section3 {
+    margin-bottom: 30px !important;
+
+    .sect_3 {
+      flex-direction: column-reverse;
+
+      .sec3_info {
+        width: 100% !important;
+        padding: 1rem;
+      }
+
+      .sec3_image {
+        width: 100% !important;
+
+        .s3_image {
+          margin: 0 auto;
+        }
+
+        .s3_image::after {
+          content: none !important;
+        }
+      }
+    }
+  }
+
+  .section4 {
+    .sect_4 {
+      .sec_4_box {
+        width: 100% !important;
+        text-align: center;
+      }
+    }
+  }
+
+  .fdiv {
+    .footer {
+      padding: 50px 10px !important;
+    }
+  }
+
+}
+
+// @media (max-width:480px) {
+//   .container {
+//     max-width: 95% !important;
+//   }
+
+// }

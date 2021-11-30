@@ -19,7 +19,7 @@ export default function Main() {
           </div>
         </div>
       </div>
-      <div className="section2">
+      <div className="section2" id="whatwedo">
         <div className="container">
           <div className="sect_2">
             {/* 0st div */}
@@ -100,7 +100,7 @@ export default function Main() {
           </div>
         </div>
       </div>
-      <div className="section4">
+      <div className="section4" id="aboutus">
         <div className="container">
           <div className="sect_4">
             <CardSection

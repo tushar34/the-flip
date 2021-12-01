@@ -5,7 +5,13 @@ import "./Main.scss";
 export default function Main() {
   return (
     <div>
-      <div className="section1">
+      <div
+        className="section1"
+        style={{
+          backgroundImage:
+            "linear-gradient(to right,rgba(79, 63, 165, 0.7),rgba(79, 63, 165, 0.7)),url('/Images/13.jpg')",
+        }}
+      >
         <div className="container">
           <div className="main_section">
             {/* div-1 */}
@@ -95,7 +101,13 @@ export default function Main() {
 
             {/* 2nd div */}
             <div className="sec3_image">
-              <div className="s3_image"></div>
+              <div
+                className="s3_image"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to right,rgba(79, 63, 165, 0.7),rgba(79, 63, 165, 0.7)),url('http://localhost:3000/Images/14.jpg')",
+                }}
+              ></div>
             </div>
           </div>
         </div>

@@ -1,8 +1,9 @@
 .section1 {
-    background-image: linear-gradient(to right,
-            rgba(79, 63, 165, 0.7),
-            rgba(79, 63, 165, 0.7)),
-        url("http://localhost:3000/Images/13.jpg");
+    // background-image:
+    //     linear-gradient(to right,
+    //         rgba(79, 63, 165, 0.7),
+    //         rgba(79, 63, 165, 0.7)),
+    //     url("http://localhost:3000/Images/13.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -178,10 +179,10 @@
 
             .s3_image {
                 width: 70%;
-                background-image: linear-gradient(to right,
-                        rgba(79, 63, 165, 0.7),
-                        rgba(79, 63, 165, 0.7)),
-                    url("http://localhost:3000/Images/14.jpg");
+                // background-image: linear-gradient(to right,
+                //         rgba(79, 63, 165, 0.7),
+                //         rgba(79, 63, 165, 0.7)),
+                //     url("http://localhost:3000/Images/14.jpg");
                 background-repeat: no-repeat;
                 background-size: cover;
                 height: 65vh;
